@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(https://i.pinimg.com/736x/11/4a/87/114a87e284917ee095c31695ff8cbd4a.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+   
+    
+    
+   
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#BATSMEN{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+#BATSMEN:hover{
+    color: rgb(21, 255, 12);
+
+}
+
+
+#name a{
+    text-decoration: none;
+    color: rgb(242, 137, 0);
+    font-family: tahoma;
+    font-size: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.678);
+    
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+ul a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-left: 60px;
+}
+li {
+    margin: 20px;
+}
+.cont{
+    height: 300px;
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.481);
+    color: aliceblue;
+    margin-left: 24%;
+    margin-top: 13%;
+    padding: 30px;
+    font-size: 22px;
+    font-family: sans-serif;
+    box-shadow: 5px 5px 10px rgb(24, 24, 24);
+    transition: transform 1s ease-in-out; /* haven't used this*/
+}
+
+.cont :hover{
+    color: rgb(218, 229, 16);
+}
+
+.cont h2{
+    padding-bottom: 20px;
+    color: rgb(0, 255, 21);
+}
+
+a:hover{
+    color: chartreuse;
+}
+
+.section1{
+    background-image: url(https://wallpapercave.com/wp/wp1809784.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+
+}
+
+.inner-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inner-section img{
+    height: 600px;
+    margin: 200px 30px 30px 30px;
+    border-radius: 40%;
+    border: 2px solid white ;
+    box-shadow: 10px 10px 20px black;
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.inner-section img:hover{
+    transform: scale(1.1);
+}
+
+.quote{
+    width: 500px;
+    height: 200px;
+    font-family: verdana;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.456);
+    text-align: center;
+    padding: 50px 10px 10px 10px;
+    margin-top: 150px;
+}
+
+.quote h2{
+    color: rgb(255, 204, 0);
+}
+
+
+footer{
+    height: 10vh0px;
+    background-color: rgb(22, 22, 22);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+footer p{
+    padding: 20px;
+}
