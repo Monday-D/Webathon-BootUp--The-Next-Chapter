@@ -5,10 +5,11 @@
 }
 
 header{
-    background-image: url(https://i.pinimg.com/736x/11/4a/87/114a87e284917ee095c31695ff8cbd4a.jpg);
+    background-image: url(https://wallpaperaccess.com/full/2604895.jpg);
     background-size: cover;
     background-position: center;
     height: 800px;
+    width: 100vw;
    
     
     
@@ -20,28 +21,18 @@ nav{
     
 }
 
-#BATSMEN{
-    background-color: transparent;
-    border: none;
-    font-size: 25px;
-    color: aliceblue;
-}
-
-#BATSMEN:hover{
-    color: rgb(21, 255, 12);
-
-}
-
-
 #name a{
     text-decoration: none;
     color: rgb(242, 137, 0);
     font-family: tahoma;
     font-size: 40px;
+    
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.678);
     
     
 }
+
+
 ul{
     display: flex;
     justify-content: space-around;
@@ -49,12 +40,13 @@ ul{
 }
 
 ul a{
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
+    color: rgb(255, 247, 0);
+    font-family: verdana, Helvetica, sans-serif;
+    font-weight: 600;
     padding-left: 60px;
+    text-shadow: 5px 5px 20px black;
 }
 li {
     margin: 20px;
@@ -64,8 +56,7 @@ li {
     width: 800px;
     background-color: rgba(0, 0, 0, 0.481);
     color: aliceblue;
-    margin-left: 24%;
-    margin-top: 13%;
+    margin: 200px auto;
     padding: 30px;
     font-size: 22px;
     font-family: sans-serif;
@@ -79,18 +70,19 @@ li {
 
 .cont h2{
     padding-bottom: 20px;
-    color: rgb(0, 255, 21);
+    color: rgb(242, 0, 255);
 }
 
 a:hover{
-    color: chartreuse;
+    color: rgb(255, 188, 17);
 }
 
 .section1{
     background-image: url(https://wallpapercave.com/wp/wp1809784.jpg);
     background-size: cover;
     background-position: center;
-    height: 1000px;
+    height: 100vh;
+    width: 100vw;
 
 }
 
@@ -101,7 +93,7 @@ a:hover{
 }
 
 .inner-section img{
-    height: 600px;
+    height: 400px;
     margin: 200px 30px 30px 30px;
     border-radius: 40%;
     border: 2px solid white ;
@@ -138,4 +130,22 @@ footer{
 }
 footer p{
     padding: 20px;
+}
+
+footer p:hover{
+    color: chartreuse;
+}
+footer i:hover{
+    color: rgb(255, 221, 0);
+}
+
+
+@media (max-width:975px){
+    .nav-links{
+        flex-direction: column;
+        align-items: center;
+    }
+    li{
+        display: block;
+    }
 }
